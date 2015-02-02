@@ -14,7 +14,7 @@
         reporters: ['progress'],
 
         runnerPort: 9000,
-        singleRun: false,
+        singleRun: true,
         browsers: ['PhantomJS', 'Firefox'],
         logLevel: 'ERROR'
       });
