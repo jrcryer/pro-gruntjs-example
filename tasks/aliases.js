@@ -6,7 +6,7 @@ module.exports = function (grunt) {
   grunt.registerTask('css', ['newer:sass', 'newer:autoprefixer', 'newer:uncss']);
   grunt.registerTask('dependencies', ['bowerInstall']);
   grunt.registerTask('js', ['newer:jshint', 'handlebars']);
-  grunt.registerTask('minify', ['copy', 'cssmin', 'newer:concat', 'requirejs', 'rev', 'usemin']);
+  grunt.registerTask('minify', ['copy', 'cssmin', 'newer:concat', 'rev', 'usemin']);
   grunt.registerTask('build', ['prepare', 'dependencies', 'css', 'js', 'minify']);
 
 
