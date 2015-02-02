@@ -1,0 +1,29 @@
+.svg-circle, .svg-tick {
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+
+.svg-circle {
+  background-position: 0 0;
+}
+
+.svg-tick {
+  background-position: 0 -170px;
+}
+
+body {
+  color: #2a2a2a;
+}
+
+h1 {
+  -webkit-transition: -webkit-transform 1s;
+          transition: transform 1s;
+}
+
+.profile .boxshadow {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.aside {
+  background: #CCC;
+}
