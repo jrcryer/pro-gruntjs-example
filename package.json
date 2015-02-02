@@ -48,6 +48,6 @@
   },
   "dependencies": {},
   "scripts": {
-    "test": "grunt test"
+    "test": "bower install && grunt test"
   }
 }
